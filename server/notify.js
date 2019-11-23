@@ -11,7 +11,7 @@ var serviceAccount = require('./serviceAccountKey.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://notify-b7652.firebaseio.com'
+  databaseURL: 'https://notify-58.firebaseio.com'
 });
 
 module.exports = function(params, res) {
